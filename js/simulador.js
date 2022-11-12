@@ -29,7 +29,7 @@ function verOtraPelicula(){
 }
 
 function verDescripcion(pelicula){
-    return prompt (pelicula.descripcion);
+    return alert (pelicula.descripcion);
 }
 
 function existePelicula(numero){
@@ -52,7 +52,7 @@ function mostrarPeliculas(){
             verDescripcion (pelicula_ver);
         }
         else {
-            prompt ('La pelicula no existe!');
+            alert ('La pelicula no existe!');
         }
         
         if (peliculaNumero === '3') {

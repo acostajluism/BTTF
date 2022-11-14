@@ -1,4 +1,4 @@
-class pelicula {
+class Pelicula {
     constructor (id, nombre, descripcion){
         this.id = id;
         this.nombre = nombre;
